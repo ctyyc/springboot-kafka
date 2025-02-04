@@ -11,11 +11,9 @@ import lombok.Setter;
 @Getter
 @Entity
 public class Member {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String name;
-
 }
